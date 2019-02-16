@@ -1,3 +1,4 @@
+cd /home/ec2-user/app
 docker build -t paths-lb:latest .
 wait $PID
 echo "completed building docker image"
