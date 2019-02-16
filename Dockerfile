@@ -16,7 +16,7 @@ COPY ./conf/nginx.conf /etc/nginx/conf.d
 RUN mkdir /usr/share/nginx/static
 
 #copy 
-COPY /content/loaderio-eb84d8c8222bf465bccec14d5189c592.txt /usr/share/nginx/static
+COPY /content/loaderio-26f7a9eba70af01decffa244ebf0b472.txt /usr/share/nginx/static
 
 #add read permission for new index.html
 RUN chmod +r /usr/share/nginx/html/index.html
